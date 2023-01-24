@@ -1,0 +1,170 @@
+
+/* Navigation Bar ;W; */
+.start{
+  text-align: left;
+  height: 400px;
+  padding-top: 30px;
+  padding-left: 30px;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.start:hover{
+  pointer-events: all;
+}
+
+.home{
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.list-item{
+  position: relative;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  transition-delay: 0;
+  color: white;
+}
+
+a:link {color: white; text-decoration: none;}
+a:visited {color: white; text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+
+.start:hover .list-item {
+  opacity: 1;
+}
+
+.list-item:hover span{
+  color: red;
+}
+
+span {
+  transition: color 0.5s ease;
+
+}
+
+
+/* Whole Body ;W; */
+
+body{
+  text-align: center;
+
+  background-image: url(sun.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: black;
+  color: white;
+  font-family: "Mona Sans","Mona Sans Header Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
+}
+.undecided{
+
+  height: 350px;
+}
+.info{
+  padding: 30px 200px 30px
+
+}
+
+.replies {
+  text-align: left;
+  list-style-position: inside;
+}
+
+.fun {
+  padding-top: 100px;
+}
+
+/* Media Section */
+.media {
+  margin-top: 100px;
+}
+
+.videos {
+  margin-top: 30px;
+  display: flex;
+}
+
+.videos * {
+  margin-right: 100px;
+}
+
+.captions{
+  margin-top: 30px;
+  display: flex;
+}
+.captions * {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Planets */
+.planets {
+  position:absolute;
+  right: 400px;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.planets:hover {
+  opacity: 0;
+}
+
+.planetimages {
+  position: absolute;
+  right: 500px;
+}
+
+/* Footer/Socials */
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.socials{
+  margin-top: 50px;
+}
+
+.socials * {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/* Text + Sizes ;W; */
+
+h1{
+  font-size: 70px;
+  transition: text-shadow 0.5s ease;
+}
+
+h1:hover{
+  text-shadow: 0 0 10px white;
+}
+h2{
+text-align: left;
+margin-left: 250px;
+transition: text-shadow 0.5s ease;
+}
+
+h2:hover{
+  text-shadow: 10px 10px 10px red;
+}
+
+h3{
+  text-align: left;
+  margin-left: 40px;
+}
+
+p{
+  font-size: 30px;
+  line-height: 10px;
+}
+
+li{
+  line-height: 30px;
+}
