@@ -83,6 +83,23 @@ span {
   transition: color 0.5s ease;
 
 }
+/* Comet Animation (Hopefully) */
+@keyframes flying {
+  0%{
+    transform: translate3d(-3000px, 0px, 0px)
+  }
+  50
+  100%{
+    transform: translate3d(10px, 0px, 0px)
+  }
+}
+
+.rocket img {
+  position: absolute;
+  transform: rotate(150deg);
+  right: 0px;
+  animation: flying 10s 0s infinite linear;
+}
 
 
 /* Whole Body ;W; */
@@ -155,6 +172,10 @@ body{
 .planetimages {
   position: absolute;
   right: 500px;
+}
+/* Flying Cat */
+.cat{
+  height: 200px;
 }
 
 /* Footer/Socials */
